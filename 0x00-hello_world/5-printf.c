@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  *main - function for printing string on screen
- *Return - function indicating well running application
+ *Return:  function indicating well running application
  *0 : value indication 0 error
 */
 int main(void)

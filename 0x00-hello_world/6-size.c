@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- *main - output the size values 
- *
+*main - output the size values
+*
 */
 int main(void)
 {
