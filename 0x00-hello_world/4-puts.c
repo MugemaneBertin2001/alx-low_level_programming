@@ -1,12 +1,10 @@
 #include <stdio.h>
 /**
- * min - function putting sring on screen
+ * main - function putting sring on screen
+ * Return: Return 0
  */
 int main(void)
 {
-/**
-*puzzle
-*/
-puts("\"Programming is like building a multilingual puzzle");
-return (0);
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
