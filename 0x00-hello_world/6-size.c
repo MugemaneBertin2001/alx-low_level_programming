@@ -1,5 +1,6 @@
 #include <stdio.h>
-int main() {
+int main(void)
+{
 printf("Size of a char: %d byte(s)\n", sizeof(char));
 printf("Size of a short: %d byte(s)\n", sizeof(short));
 printf("Size of an int: %d byte(s)\n", sizeof(int));
