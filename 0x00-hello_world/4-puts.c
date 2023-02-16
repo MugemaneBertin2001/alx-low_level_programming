@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
- * min - function putting sring on screen
- *return - return success code 
+ * min - function putting sring on screen 
  */
 int main(void)
 {
