@@ -9,7 +9,7 @@ int main(void)
 {
 	int n;
 
-	srand(time(NULL));
+	srand(time(0));
 	n = rand() % 201 - 100;
 	printf("%d ", n);
 	if (n > 0)
