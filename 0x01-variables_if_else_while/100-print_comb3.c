@@ -13,11 +13,13 @@ int main(void)
 		{
 			putchar(p);
 			putchar(d);
-			putchar(',');
-			putchar(' ');
+			if (p != '8' && d = '9')
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
 	}
-	putchar('\n');
 	return (0);
 }
 
