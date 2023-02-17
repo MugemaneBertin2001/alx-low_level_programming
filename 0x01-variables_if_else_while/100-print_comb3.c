@@ -16,11 +16,12 @@ int main(void)
 			if (p == '8' && d == '9')
 			{
 				continue;
-			}
-			putchar(',');
-			putchar(' ');
+		}
+		putchar(',');
+		putchar(' ');
 		}
 	}
+	putchar('\n');
 	return (0);
 }
 
