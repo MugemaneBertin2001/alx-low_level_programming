@@ -7,9 +7,9 @@
 */
 int main(void)
 {
-	srand(time(NULL));
 	int n;
 
+	srand(time(NULL));
 	n = rand() % 201 - 100;
 	printf("%d ", n);
 	if (n > 0)
@@ -20,7 +20,7 @@ int main(void)
 		printf("is zero\n");
 	} else
 	{
-	printf("is negative\n");
+		printf("is negative\n");
 	}
 	return (0);
 }
