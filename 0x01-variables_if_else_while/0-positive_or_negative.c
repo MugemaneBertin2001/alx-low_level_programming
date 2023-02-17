@@ -8,8 +8,9 @@
 int main(void)
 {
 	srand(time(NULL));
-	int n = rand() % 201 - 100;
+	int n;
 
+	n = rand() % 201 - 100;
 	printf("%d ", n);
 	if (n > 0)
 	{
