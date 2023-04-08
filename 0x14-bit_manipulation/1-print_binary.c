@@ -6,11 +6,11 @@
  *
  * Return: void
  */
-void print_binary(unsigned long int number)
+void print_binary(unsigned long int n)
 {
-    if (number > 1)
-        print_binary(number >> 1);
+    if (n > 1)
+        print_binary(n >> 1);
 
-    putchar((number & 1) + '0');
+    putchar((n & 1) + '0');
 }
 
